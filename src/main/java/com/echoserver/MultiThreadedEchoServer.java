@@ -65,7 +65,7 @@ public class MultiThreadedEchoServer {
                 String inputLine;
                 while ((inputLine = in.readLine()) != null) {
                     System.out.println("Received: " + inputLine);
-                    out.println(inputLine);  // Echo back the received message
+                    out.println(inputLine);
                     if ("exit".equalsIgnoreCase(inputLine)) {
                         break;
                     }
